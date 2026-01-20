@@ -1,27 +1,28 @@
 {
   "name": "08-car-racing-game",
-  "version": "1.0.0",
-  "description": "![Screenshot](car-ss.png)",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Interstellar car racing game with HTML5 Canvas, keyboard controls, and collision detection.",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "game",
+    "racing",
+    "canvas",
+    "javascript",
+    "template"
+  ],
+  "author": "Kazi Musharraf",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mk-knight23/08-car-racing-game.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/mk-knight23/08-car-racing-game/issues"
-  },
-  "homepage": "https://github.com/mk-knight23/08-car-racing-game#readme",
+  "homepage": "https://08-car-racing-game.vercel.app",
   "devDependencies": {
-    "typescript": "^5.9.3",
     "vite": "^7.3.1"
   }
 }

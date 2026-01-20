@@ -1,30 +1,21 @@
-# This is a Car Game Website Uploaded 
-# on Various Services 1
+# 08-car-racing-game
+🏎️ Interstellar car racing game with HTML5 Canvas.
+[![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mk-knight23/08-car-racing-game)
 
-#    BY MK KNIGHT 
+## Features
+- ⌨️ Arrow key controls
+- 💥 Collision detection
+- 🎮 Score tracking
+- 📱 Responsive canvas
 
-# on GIthub pages : https://mk-knight23.github.io/mk3
+## Quick Start
+```bash
+git clone https://github.com/mk-knight23/08-car-racing-game.git && cd 08-car-racing-game && npm i && npm run dev
+```
 
-# on Vercel : https://mk3-psi.vercel.app
+## Controls
+- ⬅️ ➡️ Arrow keys to move
+- Avoid obstacles!
 
-# on Netlify : https://nervous-knuth-7741d0.netlify.app
-
-# ON AZURE : https://mkapponazure.z30.web.core.windows.net/
-
-# on Render : https://car-game.onrender.com
-
-# on codeSandbox : https://n8sfo.csb.app
-
-# on Firebase : https://car-game-ef2ad.web.app
-
-# on Infinityfree : http://kazi.epizy.com/car
-
-# on Awardspace : http://kazi.atwebpages.com/car
-
-# On REPL : https://mk3.mkknight1.repl.co
-
-# On Codepen : https://codepen.io/mk-knight23/pen/MWjjOoq
-
-# ON AZURE : https://mkapponazure.z30.web.core.windows.net/
-
-![Screenshot](car-ss.png)
+## License
+MIT
