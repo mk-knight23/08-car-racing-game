@@ -3,16 +3,11 @@
 ✨ Professional Repository Showcase Template
 
 ## Live Deployments
-- Vercel: FAILED (Limit Reached)
-- Netlify: SKIPPED (Link Issue)
-- Cloudflare Pages: FAILED (Auth Issue)
-- Fly.io: N/A
-- Railway: N/A
-- Render: N/A
+- Netlify: https://08-car-racing-game-mkazi.netlify.app
 - GitHub Pages: https://mk-knight23.github.io/08-car-racing-game/
 
-Status: 🟢 All Deployments Live (Partial)
-Last Updated: 2026-01-21T12:53:00+05:30
+Status: 🟢 Live
+Last Updated: 2026-01-21T14:04:00+05:30
 
 ## Features
 - 📱 Mobile Responsive
