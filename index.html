@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/batman-6-16-DivRtV5b.ico" />
-    <title>MK CAR GAME</title>
-  <script type="module" crossorigin src="./assets/index-vPnHmBZG.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-9IQzC6b6.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f172a">
+    <title>Car Racing Game</title>
+    <meta name="description" content="A fast-paced 2D car racing game. Avoid obstacles, score points, and beat your high score!">
+    <style>
+        /* Critical CSS inline for faster load */
+        body { margin: 0; overflow: hidden; }
+    </style>
+  <script type="module" crossorigin src="/08-car-racing-game/assets/index-ypzACqBB.js"></script>
+  <link rel="stylesheet" crossorigin href="/08-car-racing-game/assets/index-Dur-7GvC.css">
 </head>
+<body class="bg-slate-950">
+    <div class="Cargame min-h-screen relative overflow-hidden">
+        <!-- Score Display -->
+        <div class="Score fixed top-6 left-6 px-4 py-2 bg-slate-900/80 backdrop-blur-xl border border-white/10 rounded-xl text-white font-bold tracking-wider text-sm">
+            SCORE: 0
+        </div>
 
-<body>
-    <div class="Cargame">
-        <p class="wm" style="position:fixed;right:30px;bottom: 4px;">Made By MK.TECH</p>
-        <div class="Score">
+        <!-- High Score Display -->
+        <div class="highscore fixed top-6 right-6 px-4 py-2 bg-slate-900/80 backdrop-blur-xl border border-white/10 rounded-xl text-white font-bold tracking-wider text-sm">
+            HIGHSCORE: 0
         </div>
-        <div class="StartScreen">
-            <p>
-                Press here to enter the endgame <br>
-                Use arrow-keys to move<br>
-                If you hit another car you will lose
-            </p>
+
+        <!-- Start Screen -->
+        <div class="StartScreen fixed inset-0 z-50 flex flex-col items-center justify-center p-6 bg-slate-950/95 backdrop-blur-md cursor-pointer text-center">
+            <div class="max-w-md p-10 rounded-[2rem] bg-gradient-to-br from-indigo-600 to-purple-600 shadow-2xl shadow-indigo-500/20 border border-white/10">
+                <h1 class="text-4xl font-black mb-4 tracking-tight uppercase">Car Racing</h1>
+                <p class="text-base font-medium leading-relaxed opacity-90 mb-6">
+                    Use Arrow Keys or Touch to move<br>
+                    Avoid the colored cars to survive
+                </p>
+                <div class="px-8 py-3 bg-white/10 rounded-xl font-bold uppercase tracking-widest text-sm hover:bg-white/20 transition-all">
+                    START GAME
+                </div>
+            </div>
         </div>
-        <div class="GameArea">
-        </div>
-        <div class="highscore"> HIGHSCORE : 9999 <br>
-            CAN YOU BEAT IT !!!
+
+        <!-- Game Area -->
+        <div class="GameArea w-[400px] h-screen mx-auto bg-slate-900 relative overflow-hidden">
+            <!-- Game elements injected by JavaScript -->
         </div>
     </div>
 </body>
-
 </html>
